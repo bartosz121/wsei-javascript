@@ -1,0 +1,29 @@
+body {
+    font-size: 2rem;
+}
+
+#game-board {
+    margin: 2rem;
+}
+
+.game-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.game-number{
+    font-size: 5rem;
+}
+
+#game-info-score-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.top-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+}
