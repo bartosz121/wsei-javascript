@@ -71,7 +71,7 @@ class Game {
       for (let y = 0; y < this.board[i].length; y++) {
         const el = document.createElement("div")
         el.textContent = this.board[i][y];
-        el.classList = "game-number"
+        el.classList = `game-number block-${this.board[i][y] <= 2048 ? this.board[i][y] : "000"}`
         row.appendChild(el)
       }
       gameBoard.appendChild(row)
